@@ -7,10 +7,9 @@ Allports: rgb(24, 114, 139), Buttons, Icons, Links, Lines, Backgrounds
 
 /* GENERAL PAGE STYLES */
 body, html {
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Yanone Kaffeesatz", sans-serif;
-  background-color: rgba(137, 187, 199,.45);
-  margin: 0;
+  background-color: rgba(137, 187, 199);
   height: 100%;
 }
 
