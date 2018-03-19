@@ -1,0 +1,71 @@
+/* universal reset to prevent whitespace at top of the page */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+#main-blog-content img {
+  width: 100%;
+  height: 50%;
+}
+
+#grid-container {
+  margin-left: 4em;
+  margin-bottom: 6em;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-template-rows: auto;
+  grid-gap: 4rem;
+}
+
+h1 {
+  margin-bottom: .2em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.blog-article {
+  color: rgb(65,70,75);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+
+.content-underline {
+  background-color: rgb(65,70,75);
+  margin: 0 0 1em 0;
+  width: 20%;
+}
+
+.blog-article h3 {
+  font-size: 2em;
+}
+
+.blog-article p {
+  font-size: 1.5em;
+  line-height: normal;
+  text-align: justify;
+}
+
+#sidebar {
+  color: rgb(65,70,75);
+  margin-right: 4em;
+}
+
+.sidebar-header {
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+
+.sidebar-content {
+  font-size: .8em;
+  padding-bottom: 2em;
+}
