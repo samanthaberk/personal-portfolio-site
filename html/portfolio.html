@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--From MDN- will optimize viewport for mobile users-->
-    <title>Samantha Berk- Web/Software Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/main.css">
-  </head>
-  <body>
-    <header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--From MDN- will optimize viewport for mobile users-->
+  <title>Samantha Berk- Web/Software Developer</title>
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/portfolio.css">
+</head>
+<body>
+  <header>
 
-      <nav>
-        <ul class="navbar-container">
-          <li><a href="#home" ><span id="nav-brand">SB</span></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="porfolio">Portfolio</a></li>
-          <li><a href="code-journal">Code Journal</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul class="navbar-container">
+        <li><a href="#home" ><span id="nav-brand">SB</span></a></li>
+        <li><a href="about.html"><span class="nav-items">About</span></a></li>
+        <li><a href="portfolio.html"><span class="nav-items">Portfolio</span></a></li>
+        <li><a href="code-journal.html"><span class="nav-items">Code Journal</span></a></li>
+      </ul>
+    </nav>
 
-    </header>
+  </header>
 
-    <main>
+  <main id="portfolio-container">
 
-    </main>
-    <footer>
+    <section id="portfolio-heading">
+      <h3>My Projects</h3>
+      <div class="content-underline"></div>
+    </section>
 
-    </footer>
+    <section id="project1">
+      <div class="project-left-content">
+        <h2>Grocery Store Inventory Tracker</h2>
+        <div class="project-description">
+          <p>This project simulates a grocery store inventory system. It allows employees to keep track of orders that people make, including both online and in-store purchases. The project was built using Test-Driven Development practices in Ruby.</p>
+        </div>
+      </div>
+      <div class="project-icons">
+        <i class="icon-ruby fa"></i>
+        <h4 class="icon-title">Ruby</h4>
+        <a href="https://github.com/samanthaberk/grocery-store" class="github-button"><i class="fa fa-github"></i>Source Code</a>
+      </div>
+    </section>
 
-  </body>
+    <section id="project1-image">
+      <div class="project-right-content">
+        <img src="../images/grocery-store.JPG" alt="Grocery Store">
+      </div>
+    </section>
+
+    <section id="project2">
+    </section>
+
+    <section id="project3">
+    </section>
+
+  </main>
+  <footer>
+    <p>&copy; Samantha Berk</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/samanthaberk/"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/sberk10"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.facebook.com/samantha.berk1"><i class="fa fa-facebook"></i></a></li>
+    </ul>
+  </footer>
+
+</body>
 </html>
