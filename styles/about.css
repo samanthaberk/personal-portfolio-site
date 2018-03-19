@@ -1,9 +1,19 @@
+/* universal reset to prevent whitespace at top of the page */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 
 #about-container {
   display: grid;
   grid-template: 1fr auto / 4fr 3fr 3fr;
   grid-gap: .75em;
-  margin: 0 40px;
+  margin: 0 40px 70px 40px;
   color: rgba(65,70,75);
   height: 100%;
   width: 100%;
@@ -25,8 +35,9 @@
 }
 
 .content-underline {
-    background-color: rgb(65,70,75);
-    margin: 0 auto;
+  background-color: rgb(65,70,75);
+  margin: 0 auto 2em auto;
+  width: 20%;
 }
 
 #about-heading ul {
@@ -47,16 +58,12 @@
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   margin-top: 0;
+  line-height: 1.75em;
 }
 
 #about-text a {
-  color: rgba(244,244,244);
-  text-decoration: none;
-}
-
-#about-text a:hover {
   color: rgba(24,114,139);
-  font-style: italic;
+  text-decoration: none;
 }
 
 /* MIDDLE IMAGE */

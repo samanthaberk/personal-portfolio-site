@@ -1,16 +1,30 @@
 /* COLOR SCHEME
 Steel Gray: rgb(65,70,75), Headings
 White Smoke: rgb(244,244,244), text on dark backgrounds, light background
-Blue Bayoux: rgb(100, 112, 123), paragraphs
-Allports: rgb(24, 114, 139), Buttons, Icons, Links, Lines, Backgrounds
 */
 
 /* GENERAL PAGE STYLES */
-body, html {
-  /* overflow: hidden; */
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  background-color: rgba(137, 187, 199);
-  height: 100%;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background: linear-gradient(to right, rgba(147,183,190,0), rgba(147,183,190,1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 p {
@@ -19,11 +33,17 @@ p {
 }
 
 .content-underline {
-    width: 15%;
+    width: 55%;
     height: 3px;
 }
 
 /* NAVBAR */
+nav {
+  background-color: rgb(65,70,75, .9);
+  height: 100%;
+  padding: 1em;
+}
+
 nav ul li a {
   text-decoration: none;
   color: rgb(244,244,244);
@@ -50,6 +70,7 @@ nav ul li a {
 }
 
 .navbar-container>li {
+  align-self: center;
   font-size: 1.8em;
   list-style: none;
   padding-right: 3em;
@@ -63,7 +84,7 @@ nav ul li:first-child {
 
 #nav-brand {
   border: solid 2px rgb(244,244,244);
-  padding: 5% 20%;
+  padding: 5% 25%;
   border-radius: 5px 20px 5px;
 }
 

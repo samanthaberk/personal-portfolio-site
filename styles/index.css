@@ -1,3 +1,7 @@
+nav {
+  background-color: transparent;
+}
+
 #home-background-img {
   background: linear-gradient( rgba(20, 20, 20, .5), rgba(20, 20, 20, .1)), url("../images/great-wall.JPG");
   height: 100%;

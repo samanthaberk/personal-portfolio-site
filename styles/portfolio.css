@@ -8,7 +8,9 @@
   vertical-align: baseline;
   background: transparent;
 }
-
+body {
+  padding-bottom: 2em;
+}
 /* General stylings */
 #portfolio-container {
   display: grid;
@@ -18,7 +20,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
   margin: 0 2em;
-  padding: 0 2em 2em 2em;
   color: rgb(65,70,75);
 }
 
@@ -27,7 +28,7 @@
   grid-column: 1 / 3;
   color: rgb(65,70,75);
   font-size: 2em;
-  margin: 0 auto;
+  margin: 1em auto;
   padding-bottom: 2em;
 }
 
@@ -45,10 +46,16 @@
   justify-content: center;
 }
 
+.project-left-content h2 {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .project-left-content p {
   text-align: justify;
   justify-content: flex-start;
-  margin-top: 0;
+  margin-bottom: 2em;
 }
 
 .project-icons {
