@@ -8,9 +8,7 @@
   vertical-align: baseline;
   background: transparent;
 }
-body {
-  padding-bottom: 2em;
-}
+
 /* General stylings */
 #portfolio-container {
   display: grid;
@@ -19,7 +17,7 @@ body {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
-  margin: 0 2em;
+  margin: 0 2em 6em 2em;
   color: rgb(65,70,75);
 }
 
@@ -104,6 +102,7 @@ body {
 #project3 {
   grid-row: 4 / 5;
   grid-column: 1 / 2;
+  height: 30em;
 }
 
 /* project images */
@@ -115,6 +114,7 @@ body {
 #project2-image {
   grid-row: 3 / 4;
   grid-column: 2 / 3;
+  padding-top: 6em;
 }
 
 #project3-image {

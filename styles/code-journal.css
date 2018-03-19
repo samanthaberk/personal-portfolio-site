@@ -69,3 +69,8 @@ p {
   font-size: .8em;
   padding-bottom: 2em;
 }
+
+.sidebar-content p a {
+  color: rgba(244,244,244);
+  font-style: italic;
+}
